@@ -82,3 +82,15 @@ pre{
     /*Colocando izquierda y abajo*/
     /*background-position: left bottom;*/
 }
+
+h3::before{
+    content: '-';
+}
+
+h3::after{
+    content: '';
+    background: var(--gray30);
+    display: block;
+    height: 4px;
+    width: 80px;
+}
