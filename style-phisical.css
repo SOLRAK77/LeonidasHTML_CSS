@@ -138,9 +138,10 @@ hr {
 }
 .hero {
   height: 350px;
-  background-image: linear-gradient(
+  background-image: 
+    linear-gradient(
       to top,
-      rgb(255, 255, 255, 0.3),
+      rgb(255, 255, 255, 0.5),
       transparent
     ),
     url("./img/patron-1.png");
